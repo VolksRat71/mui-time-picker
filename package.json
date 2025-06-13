@@ -1,7 +1,7 @@
 {
   "name": "mui-time-picker",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A flexible Material-UI time picker component with support for Years, Weeks, Days, Hours, Minutes, Seconds, and Milliseconds",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -30,16 +30,16 @@
     "react-component",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "VolksRat71",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/mui-time-picker.git"
+    "url": "https://github.com/VolksRat71/mui-time-picker.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/mui-time-picker/issues"
+    "url": "https://github.com/VolksRat71/mui-time-picker/issues"
   },
-  "homepage": "https://github.com/yourusername/mui-time-picker#readme",
+  "homepage": "https://github.com/VolksRat71/mui-time-picker#readme",
   "peerDependencies": {
     "@mui/material": "^5.0.0",
     "@mui/icons-material": "^5.0.0",
