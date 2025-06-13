@@ -1,0 +1,80 @@
+{
+  "name": "mui-time-picker",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "A flexible Material-UI time picker component with support for Years, Weeks, Days, Hours, Minutes, Seconds, and Milliseconds",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "dist",
+    "src/index.d.ts"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "keywords": [
+    "react",
+    "material-ui",
+    "mui",
+    "time-picker",
+    "duration-picker",
+    "time-input",
+    "react-component",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mui-time-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mui-time-picker/issues"
+  },
+  "homepage": "https://github.com/yourusername/mui-time-picker#readme",
+  "peerDependencies": {
+    "@mui/material": "^5.0.0",
+    "@mui/icons-material": "^5.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "@mui/material": "^5.14.0",
+    "@mui/icons-material": "^5.14.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.26.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"],
+    "moduleNameMapping": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "passWithNoTests": true
+  }
+}

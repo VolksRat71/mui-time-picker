@@ -1,0 +1,41 @@
+# Source files
+src/
+!src/index.d.ts
+
+# Examples
+examples/
+
+# Configuration files
+.eslintrc.js
+rollup.config.js
+.gitignore
+
+# Development files
+TODO.md
+
+# Testing
+coverage/
+src/setupTests.js
+
+# Build configuration
+.babelrc
+.babelrc.js
+babel.config.js
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Optional files
+.env*
