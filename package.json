@@ -1,8 +1,9 @@
 {
   "name": "mui-time-picker",
   "type": "module",
-  "version": "1.0.2",
-  "description": "A flexible Material-UI time picker component with support for Years, Weeks, Days, Hours, Minutes, Seconds, and Milliseconds",
+  "version": "0.1.0-alpha.1",
+  "description": "⚠️ DEVELOPMENT VERSION - A flexible Material-UI time picker component with support for Years, Weeks, Days, Hours, Minutes, Seconds, and Milliseconds",
+  "private": true,
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "src/index.d.ts",
@@ -18,7 +19,9 @@
     "lint": "eslint src --ext .js,.jsx",
     "lint:fix": "eslint src --ext .js,.jsx --fix",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run lint && npm run build"
+    "prepublishOnly": "echo '⚠️  This package is not ready for publishing! Remove private:true from package.json when ready.' && exit 1",
+    "publish:dev": "echo '⚠️  Development version - use npm publish --tag alpha for pre-release'",
+    "publish:ready": "echo 'Remove private:true and update version before publishing'"
   },
   "keywords": [
     "react",

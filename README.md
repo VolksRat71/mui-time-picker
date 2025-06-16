@@ -1,5 +1,12 @@
 # MUI Time Picker
 
+> ⚠️ **DEVELOPMENT VERSION - NOT READY FOR PRODUCTION**
+>
+> This package is currently under active development and is not ready for production use.
+> Features may be incomplete, APIs may change without notice, and there may be bugs.
+>
+> **DO NOT USE IN PRODUCTION PROJECTS**
+
 A flexible Material-UI time picker component with support for Years, Weeks, Days, Hours, Minutes, Seconds, and Milliseconds with configurable digit options.
 
 ## Features
@@ -128,7 +135,7 @@ const DEFAULT_CONFIG = {
 - **Days**: 1-3 digits (1-365 days)
 - **Hours**: Fixed 2 digits (00-23 hours)
 - **Minutes**: Fixed 2 digits (00-59 minutes)
-- **Seconds**: Fixed 2 digits (00-59 seconds)  
+- **Seconds**: Fixed 2 digits (00-59 seconds)
 - **Milliseconds**: 1-3 digits (1-999 milliseconds)
 
 ## Props
